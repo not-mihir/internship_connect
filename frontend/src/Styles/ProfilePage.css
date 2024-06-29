@@ -1,0 +1,19 @@
+/* src/Styles/ProfilePage.css */
+.profile-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-page p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
