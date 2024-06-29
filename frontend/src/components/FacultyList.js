@@ -1,6 +1,7 @@
+// src/components/FacultyList.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import API from '../api'; // Comment this out for now
+// import API from '../api'; // Uncomment this when connecting to the actual API
 
 const FacultyList = () => {
     const [faculties, setFaculties] = useState([]);

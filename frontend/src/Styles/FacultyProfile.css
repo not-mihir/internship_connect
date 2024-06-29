@@ -1,0 +1,43 @@
+/* src/Styles/FacultyProfile.css */
+.faculty-profile {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-profile h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faculty-profile p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.faculty-profile h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.faculty-profile ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faculty-profile li {
+    margin: 10px 0;
+}
+
+.faculty-profile li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.faculty-profile li a:hover {
+    text-decoration: underline;
+}
