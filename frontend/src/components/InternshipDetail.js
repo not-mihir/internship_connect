@@ -17,6 +17,10 @@ const InternshipDetail = () => {
             '202': { title: 'Signal Processing Internship', description: 'Work on signal processing algorithms.' },
             '301': { title: 'Robotics Internship', description: 'Design and build robotic systems.' },
             '302': { title: 'Automotive Engineering Internship', description: 'Work on automotive engineering projects.' },
+            '401': { title: 'Automotive Engineering Internship', description: 'Work on automotive engineering projects.' },
+            '402': { title: 'Automotive Engineering Internship', description: 'Work on automotive engineering projects.' },
+            '501': { title: 'Automotive Engineering Internship', description: 'Work on automotive engineering projects.' },
+            '502': { title: 'Automotive Engineering Internship', description: 'Work on automotive engineering projects.' },
         };
         setInternship(mockInternships[id]);
 

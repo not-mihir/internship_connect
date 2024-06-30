@@ -1,0 +1,7 @@
+.card-adjust{
+    display: inline-block; 
+    /* allows you to display elements vertically or horizontally */
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    gap: 20px;
+}

@@ -7,6 +7,7 @@ const HomePage = () => {
     return (
         <div className="home-page">
             <h1>Welcome to the Home Page</h1>
+            <div className='card-hptext' >Below contains the list of Faculty's and their Specialization</div>
             <FacultyList />
         </div>
     );

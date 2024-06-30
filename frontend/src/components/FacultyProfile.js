@@ -12,8 +12,9 @@ const FacultyProfile = () => {
         // Mock data for example purposes
         const mockFaculties = {
             '1': {
-                name: 'Professor A',
-                qualifications: 'PhD in Computer Science',
+                name: 'Priyank',
+                qualifications: 'PhD (Wireless Communications), IIT Delhi',
+                spe:'Reinforcement Learning, Deep Learning for Finance and Cyber Security, Wireless Communication, Cyber-Physical Systems, Information Security',
                 internships: [
                     { _id: '101', title: 'AI Research Internship' },
                     { _id: '102', title: 'Data Science Internship' },
@@ -22,6 +23,7 @@ const FacultyProfile = () => {
             '2': {
                 name: 'Professor B',
                 qualifications: 'PhD in Electrical Engineering',
+                spe:'Reinforcement Learning, Deep Learning for Finance and Cyber Security',
                 internships: [
                     { _id: '201', title: 'Embedded Systems Internship' },
                     { _id: '202', title: 'Signal Processing Internship' },
@@ -30,9 +32,28 @@ const FacultyProfile = () => {
             '3': {
                 name: 'Professor C',
                 qualifications: 'PhD in Mechanical Engineering',
+                spe:'Reinforcement Learning, Deep Learning for Finance and Cyber Security, Wireless Communication, Cyber-Physical Systems, Information Security',
                 internships: [
                     { _id: '301', title: 'Robotics Internship' },
                     { _id: '302', title: 'Automotive Engineering Internship' },
+                ],
+            },
+            '4': {
+                name: 'Professor D',
+                qualifications: 'PhD in Mechanical Engineering',
+                spe:'Reinforcement Learning, Deep Learning for Finance and Cyber Security, Wireless Communication, Cyber-Physical Systems, Information Security',
+                internships: [
+                    { _id: '401', title: 'Robotics Internship' },
+                    { _id: '402', title: 'Automotive Engineering Internship' },
+                ],
+            },
+            '5': {
+                name: 'Professor E',
+                qualifications: 'PhD in Mechanical Engineering',
+                spe:'Reinforcement Learning, Deep Learning for Finance and Cyber Security, Wireless Communication, Cyber-Physical Systems, Information Security',
+                internships: [
+                    { _id: '501', title: 'Robotics Internship' },
+                    { _id: '502', title: 'Automotive Engineering Internship' },
                 ],
             },
         };
@@ -55,8 +76,11 @@ const FacultyProfile = () => {
 
     return (
         <div className="faculty-profile">
+            <img src="" className="card-img-top" alt="..."/>
             <h1>{faculty.name}</h1>
             <p>{faculty.qualifications}</p>
+            <h2>Specialization</h2>
+            <p>{faculty.spe}</p>
             <h2>Offered Internships</h2>
             <ul>
                 {faculty.internships.map(internship => (
