@@ -1,12 +1,14 @@
-// backend/models/Professor.js
 const mongoose = require('mongoose');
 
 const ProfessorSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-  password: String,
-  qualifications: String,
-  internships: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Internship' }]
+    name: { type: String, required: true },
+    qualifications: { type: String, required: true },
+    specializations: { type: String, required: true },
+    internships: [
+        {
+            title: { type: String, required: true }
+        }
+    ]
 });
 
 module.exports = mongoose.model('Professor', ProfessorSchema);
